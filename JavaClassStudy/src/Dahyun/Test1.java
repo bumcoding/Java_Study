@@ -44,15 +44,17 @@ public class Test1 {
 
 
 
-        System.out.print("알파벳을 입력하세요 : ");
-        char num = sc.next().charAt(0);
+//        System.out.print("알파벳을 입력하세요 : ");
+//        char num = sc.next().charAt(0);
+//
+//        for (int i = 0; i < 5; i++) {
+//            if (num > 'B') {
+//                System.out.println(num + "는 B보다 큽니다");
+//            } else {
+//                System.out.println(num + "는 B보다 안큽니다");
+//            }
+//        }
 
-        for (int i = 0; i < 5; i++) {
-            if (num > 'B') {
-                System.out.println(num + "는 B보다 큽니다");
-            } else {
-                System.out.println(num + "는 B보다 안큽니다");
-            }
-        }
+
     }
 }
