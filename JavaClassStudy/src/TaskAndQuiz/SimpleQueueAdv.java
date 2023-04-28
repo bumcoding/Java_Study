@@ -83,11 +83,11 @@ public class SimpleQueueAdv {
             System.out.println("======================================");
             System.out.print("메뉴 선택: ");
             int choice = sc.nextInt();
-
+            
             switch (choice) {
                 case 1:
                     // 0~9가 나온다
-                    int data = (int) (Math.random() * 10) + 1; 
+                    int data = (int) (Math.random() * 10) + 1;
                     queue.enQueue(data);
                     System.out.println("=======================");
                     System.out.println("큐에 데이터 " + data + " 저장 완료");
