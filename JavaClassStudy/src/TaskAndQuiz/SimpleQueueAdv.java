@@ -1,3 +1,5 @@
+package TaskAndQuiz;
+
 import java.util.Scanner;
 
 public class SimpleQueueAdv {
